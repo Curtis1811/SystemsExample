@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Player/Player_Uss.uss?fileID=7433441132597879392&amp;guid=03b1686ab66e7774cb2519e4ed089cef&amp;type=3#Player_Uss" />
+    <ui:VisualElement name="Container">
+        <ui:VisualElement name="WaveContainer" style="font-size: 30%; color: rgb(255, 255, 255);" />
+        <ui:ProgressBar value="50" title="Health" name="HealthBar" high-value="100" />
+        <ui:VisualElement name="WaveCountdownContainter" style="color: rgb(255, 255, 255); align-items: flex-start; flex-wrap: nowrap;">
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="WaveCountLable" class="WaveCountDown" />
+        </ui:VisualElement>
+        <ui:VisualElement name="TimerContainer" style="height: 32px; width: 80px; background-color: rgb(212, 189, 193);">
+            <ui:Label text="TimerDisplay" display-tooltip-when-elided="true" name="TimerLabel" style="font-size: 12%; justify-content: center; align-items: center; -unity-text-align: upper-center; white-space: nowrap;" />
+        </ui:VisualElement>
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="WaveLable" />
+    </ui:VisualElement>
+</ui:UXML>

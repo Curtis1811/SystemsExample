@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/GameOver/GameOver.uss?fileID=7433441132597879392&amp;guid=5627deb146390f54a84748ffc5659a03&amp;type=3#GameOver" />
+    <ui:VisualElement name="Container" style="justify-content: center; width: 100%; height: 100%; align-items: center; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgb(99, 99, 99);">
+        <ui:Label text="Game over!" display-tooltip-when-elided="true" name="GameOverText" style="font-size: 30px; color: rgb(250, 114, 114);" />
+        <ui:VisualElement name="Spacer" style="margin-bottom: 50px;" />
+        <ui:VisualElement name="PlayAgain" style="margin-bottom: 0; align-items: center; width: 100%; padding-bottom: 0;">
+            <ui:Label text="Play Again!" display-tooltip-when-elided="true" name="PlayAgainText" style="color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 20px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Spacer" style="margin-bottom: 50px;" />
+        <ui:VisualElement name="Upload" style="width: 100%; justify-content: flex-start; align-items: center;">
+            <ui:Label text="Upload!" display-tooltip-when-elided="true" name="UploadText" style="width: auto; color: rgb(255, 255, 255); font-size: 20px; -unity-font-style: bold;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

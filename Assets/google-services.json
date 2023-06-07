@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "938608493181",
+    "firebase_url": "https://defendtheobilisk-default-rtdb.firebaseio.com",
+    "project_id": "defendtheobilisk",
+    "storage_bucket": "defendtheobilisk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938608493181:android:9cff7a0b2d4a152eae2714",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.SystemsExample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938608493181-argnb33qpfohbo90eh7shvp0uhrn6dfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcIL5NbtPwWYzxOdRWbnEmf_JSRoLbiHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938608493181-argnb33qpfohbo90eh7shvp0uhrn6dfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
